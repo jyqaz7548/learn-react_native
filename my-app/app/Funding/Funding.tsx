@@ -20,7 +20,7 @@ const categoriesList = [
   { label: '게임', value: 'games' },
 ];
 
-const Punding = () => {
+const FundingScreen = () => {
   const [step, setStep] = useState(1);
   const [projectTitle, setProjectTitle] = useState('');
   const [mainImages, setMainImages] = useState<string[]>(['', '', '']);
@@ -395,5 +395,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Punding;
+export default FundingScreen;
 
